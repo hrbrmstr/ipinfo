@@ -1,0 +1,62 @@
+---
+output: rmarkdown::github_document
+---
+
+# ipinfo
+
+Collect Metadata on 'IP' Addresses
+
+## Description
+
+The 'ipinfo.io' <https://ipinfo.io/> service provides an 'API' for retrieving metadata on 'IP' addresses and autonomous systems. Methods are provided to query and retrieve this metadata.
+   
+## What's Inside The Tin
+
+The following functions are implemented:
+
+- `country_trans`:	Retrieve a data frame of country abbreviation to name mappings
+- `query_asn`:	Retrieve full ASN details
+- `query_ip`:	Retrieve full IP details
+
+## Installation
+
+```{r eval=FALSE}
+devtools::install_github("hrbrmstr/ipinfo")
+```
+
+```{r message=FALSE, warning=FALSE, error=FALSE, include=FALSE}
+options(width=120)
+library(dplyr)
+```
+
+## Usage
+
+```{r message=FALSE, warning=FALSE, error=FALSE}
+library(ipinfo)
+
+# current verison
+packageVersion("ipinfo")
+```
+
+### Lookup an IP
+
+```{r cache=TRUE}
+str(
+  query_ip("1.1.1.1"),
+  1
+)
+```
+
+### Lookup an ASN
+
+I do not have a paid plan for this so I cannot test it
+
+### Country iso2c to name mapping
+
+```{r cache=TRUE}
+country_trans()
+```
+
+## Code of Conduct
+
+Please note that this project is released with a [Contributor Code of Conduct](CONDUCT.md). By participating in this project you agree to abide by its terms.

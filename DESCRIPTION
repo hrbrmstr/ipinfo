@@ -1,0 +1,25 @@
+Package: ipinfo
+Type: Package
+Title: Collect Metadata on 'IP' Addresses
+Version: 0.1.0
+Date: 2018-04-17
+Authors@R: c(
+    person("Bob", "Rudis", email = "bob@rud.is", role = c("aut", "cre"), 
+           comment = c(ORCID = "0000-0001-5670-2640"))
+  )
+Maintainer: Bob Rudis <bob@rud.is>
+Description: The 'ipinfo.io' <https://ipinfo.io/> service provides an 'API' for
+   retrieving metadata on 'IP' addresses and autonomous systems. Methods are provided
+   to query and retrieve this metadata.
+URL: https://github.com/hrbrmstr/ipinfo
+BugReports: https://github.com/hrbrmstr/ipinfo/issues
+Encoding: UTF-8
+License: AGPL
+Suggests:
+    testthat,
+    covr
+Depends:
+    R (>= 3.2.0)
+Imports:
+    purrr
+RoxygenNote: 6.0.1
