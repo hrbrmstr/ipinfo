@@ -4,7 +4,7 @@
 \name{ipinfo}
 \alias{ipinfo}
 \alias{ipinfo-package}
-\title{Collect Metadata on 'IP' Addresses}
+\title{Collect Metadata on 'IP' Addresses and Autonomous Systems}
 \description{
 The 'ipinfo.io' \url{https://ipinfo.io/} service provides an 'API' for
 retrieving metadata on 'IP' addresses and autonomous systems. Methods are provided

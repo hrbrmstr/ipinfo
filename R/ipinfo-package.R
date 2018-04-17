@@ -1,4 +1,4 @@
-#' Collect Metadata on 'IP' Addresses
+#' Collect Metadata on 'IP' Addresses and Autonomous Systems
 #'
 #' The 'ipinfo.io' <https://ipinfo.io/> service provides an 'API' for
 #' retrieving metadata on 'IP' addresses and autonomous systems. Methods are provided

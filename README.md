@@ -1,7 +1,7 @@
 
 # ipinfo
 
-Collect Metadata on ‘IP’ Addresses
+Collect Metadata on ‘IP’ Addresses and Autonomous Systems
 
 ## Description
 
